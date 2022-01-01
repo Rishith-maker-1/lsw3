@@ -4,7 +4,7 @@
 <head>
 </head>
 
-<body>
+<body onload="h()">
     <div style="width:1366px;height:545px;max-width:100%">
         <div id="game"></div>
     </div>
@@ -21,6 +21,10 @@
                 border-radius:300px;
             }
         </style>
+    <script>
+    function h(){
+         document.getElementByTagName("iframe").remove;
+    }</script>
 </body>
 
 </html>
